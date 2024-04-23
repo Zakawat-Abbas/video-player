@@ -15,6 +15,7 @@ body {
 
 .video-container {
   margin: 0 auto;
+  padding: 0 1.5rem;
   max-width: 800px;
   height: 500px;
 }
