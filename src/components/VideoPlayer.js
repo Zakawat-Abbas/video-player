@@ -25,6 +25,8 @@ export const VideoPlayer = (props) => {
                 onReady && onReady(player);
             });
 
+            // player.userActions.doubleClick = false;
+
         } else {
             const player = playerRef.current;
 
