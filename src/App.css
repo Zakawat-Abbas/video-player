@@ -32,7 +32,34 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+/* .vjs-icon-skip-forward .vjs-icon-placeholder::before {
+  content: "F";
+  font-size: 1.8em;
+  line-height: 1.67;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.vjs-icon-skip-backward .vjs-icon-placeholder::before {
+  content: "B";
+  font-size: 1.8em;
+  line-height: 1.67;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+} */
