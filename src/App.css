@@ -38,6 +38,11 @@
   }
 }
 
+/* .video-js {
+  width: 50% !important;
+  /* height: 50% !important; 
+} */
+
 /* .vjs-icon-skip-forward .vjs-icon-placeholder::before {
   content: "F";
   font-size: 1.8em;
@@ -63,3 +68,25 @@
   height: 100%;
   cursor: pointer;
 } */
+
+/* body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+
+.video-container {
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: black; */
+  max-width: 800px;
+  height: 500px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border-radius: 12px; */
+}
+
+.heading {
+  text-align: center;
+}
