@@ -51,6 +51,8 @@ const App = () => {
     playerControlBar.insertBefore(forwardButton, playerControlBar.firstChild);
     playerControlBar.insertBefore(backwardButton, playerControlBar.firstChild);
 
+
+
     const playerRegion = player.el();
 
     playerRegion.addEventListener('dblclick', (event) => {
