@@ -11,6 +11,9 @@ const App = () => {
     controls: true,
     responsive: true,
     fluid: true,
+    userActions: {
+      doubleClick: false
+    },
     controlBar: {
       children: [
         'playToggle',
@@ -26,7 +29,8 @@ const App = () => {
     }]
   };
 
-  const handlePlayerReady = (player) => {
+
+  const handlePlayer = (player) => {
     playerRef.current = player;
 
     const forwardButton = document.createElement('button');
@@ -80,7 +84,7 @@ const App = () => {
   return (
     <div className='video-container'>
       <h1 className='heading'>Video Player</h1>
-      <VideoPlayer options={videoJsOptions} onReady={handlePlayerReady} width={640} height={360} />
+      <VideoPlayer options={videoJsOptions} onReady={handlePlayer} />
     </div>
   );
 }

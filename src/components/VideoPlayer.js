@@ -7,15 +7,10 @@ export const VideoPlayer = (props) => {
     const playerRef = useRef(null);
     const { options, onReady } = props;
 
-    // videojs("vjs_video_2704", {
-    //     userActions: {
-    //         doubleClick: false
-    //     }
-    // });
-
     useEffect(() => {
         if (!playerRef.current) {
             const videoElement = document.createElement("video-js");
+            videoElement.setAttribute('id', 'my-player');
 
             videoElement.classList.add('vjs-big-play-centered');
             videoRef.current.appendChild(videoElement);
@@ -24,8 +19,6 @@ export const VideoPlayer = (props) => {
                 videojs.log('player is ready');
                 onReady && onReady(player);
             });
-
-            // player.userActions.doubleClick = false;
 
         } else {
             const player = playerRef.current;
