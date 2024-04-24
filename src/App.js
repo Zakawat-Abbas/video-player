@@ -20,6 +20,7 @@ const App = () => {
         'volumePanel',
         'progressControl',
         'remainingTimeDisplay',
+        'pictureInPictureToggle',
         'fullscreenToggle',
       ],
     },
