@@ -1,6 +1,6 @@
 # Video Player React App
 
-A react video player with 10s forward and 10s backwards when clicked/tapped on button and video player region works well on both desktop and touch devices.
+A react video player using vidoejs with 10s forward and 10s backwards when clicked/tapped on button and video player region works well on both desktop and touch devices.
 
 ## To Run
 
